@@ -1,0 +1,63 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-l);
+}
+
+.go-back {
+  width: 24px;
+  height: 24px;
+  background-color: var(--primary-color);
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: var(--radius);
+  margin-top: var(--space-m);
+}
+.story-content h3 {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  color: var(--text-heading);
+  margin-top: var(--space-m);
+  margin-bottom: var(--space-xs);
+}
+
+.story-content p {
+  margin-bottom: var(--space-s);
+}
+
+/* Tools Section */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-m);
+  margin-top: var(--space-m);
+}
+
+.tool-card {
+  padding: var(--space-m);
+  border-radius: var(--radius);
+  border: 1px solid rgba(94, 40, 246, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(94, 40, 246, 0.1);
+}
+
+.tool-card h3 {
+  font-size: var(--font-size-md);
+  color: var(--primary-color);
+  padding-bottom: var(--space-2xs);
+  display: inline-block;
+}
+
+.tool-card li {
+  margin-bottom: var(--space-2xs);
+  font-weight: 500;
+}
