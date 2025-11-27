@@ -11,9 +11,7 @@ build/
 .env.*.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/settings.json
-!.vscode/extensions.json
+.vscode/
 
 # OS generated files
 .DS_Store
